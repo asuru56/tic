@@ -1,0 +1,13 @@
+.block{
+   
+    border: 1px solid black;
+    width: 100px; /* Adjust according to your desired size */
+    height: 100px;
+    background-color: red;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* Three columns of equal width */
+}
+
