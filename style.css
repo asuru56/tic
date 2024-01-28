@@ -4,6 +4,10 @@
     width: 100px; /* Adjust according to your desired size */
     height: 100px;
     background-color: red;
+    color:white;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .top {
