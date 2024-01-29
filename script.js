@@ -11,7 +11,11 @@ function check(){
         console.log(block,"is O");
         
     }
-    return checkForWinner() ; 
+    if(checkForWinner() == 'O') 
+    console.log("Winner is 0")
+    else 
+    if(checkForWinner() == "X")
+    console.log("winner is X")
 }
 }
 
