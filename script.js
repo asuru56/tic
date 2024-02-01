@@ -1,23 +1,5 @@
 let flag = 1; 
 
-function check(){
-    for (let i = 0; i < 9; i++) {
-    const block = document.querySelectorAll('.block')[i];
-    if(block.innerText == 'X'){
-        console.log(block,"is X");
-
-    }
-    if(block.innerText == 'O'){
-        console.log(block,"is O");
-        
-    }
-    if(checkForWinner() == 'O') 
-    console.log("Winner is 0")
-    else 
-    if(checkForWinner() == "X")
-    console.log("winner is X")
-}
-}
 
 function checkForWinner() {
     const winningCombos = [
